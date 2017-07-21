@@ -388,6 +388,8 @@ GameObject:
   - component: {fileID: 74918658}
   - component: {fileID: 74918657}
   - component: {fileID: 74918659}
+  - component: {fileID: 74918660}
+  - component: {fileID: 74918661}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -457,14 +459,40 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 0e8944d61aad13245bdd005e1b014ab1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.72, y: 0.97}
+  m_Size: {x: 0.66, y: 0.92}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!70 &74918660
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 74918656}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.66, y: 0.92}
+  m_Direction: 0
+--- !u!114 &74918661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 74918656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfa0da9e2d7d0db4b831a1f0da7d296c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &81053426
 Prefab:
   m_ObjectHideFlags: 0
